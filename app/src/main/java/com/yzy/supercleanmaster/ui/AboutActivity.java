@@ -2,6 +2,7 @@ package com.yzy.supercleanmaster.ui;
 
 import android.os.Bundle;
 import android.text.util.Linkify;
+import android.view.View;
 import android.widget.TextView;
 
 import com.yzy.supercleanmaster.R;
@@ -28,6 +29,12 @@ public class AboutActivity extends BaseSwipeBackActivity {
 
         subVersion.setText("V"+ AppUtil.getVersion(mContext));
 
+        findViewById(R.id.back_image).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 
 }

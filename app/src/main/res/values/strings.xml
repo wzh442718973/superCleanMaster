@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string name="app_name">一键清理  开源版</string>
+    <string name="app_name">急速清理</string>
     <string name="short_cut_name">一键加速</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
@@ -27,13 +27,10 @@
     <string name="settings_about">关于</string>
     <string name="settings_version_update">检查更新</string>
     <string name="settings_grade">给我好评</string>
-    <string name="settings_share">推荐给好友</string>
+    <string name="settings_share">分享给好友</string>
 
     <string name="title_settings">设置</string>
      <string name="app_information">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;\
-        亲！么么！一键清理 开源版 。高效、快速、准确的清理手机垃圾，提升手机运行速度。\
-         源代码开源，保证安全
-        由于时间仓促，错误与疏忽之处在所难免,\
-        如果各位亲能给出宝贵的建议与指点,那将是极好的哦！么么哒！</string>
-    <string name="all_rights_reserved">Copyright © 2012-2015 zaiyong. All Rights Reserved.</string>
+        内存/垃圾清理\nAPP管理及自启动管理</string>
+    <string name="all_rights_reserved">2274680923@qq.com</string>
 </resources>

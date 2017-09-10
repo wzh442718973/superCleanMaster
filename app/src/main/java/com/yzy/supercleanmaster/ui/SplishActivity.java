@@ -14,8 +14,6 @@ import com.yzy.supercleanmaster.service.CleanerService;
 import com.yzy.supercleanmaster.service.CoreService;
 import com.yzy.supercleanmaster.utils.SharedPreferencesUtils;
 
-import java.util.Random;
-
 
 public class SplishActivity extends BaseActivity {
 
@@ -36,12 +34,12 @@ public class SplishActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splish);
         mImageView = (ImageView) findViewById(R.id.image);
-        int index = new Random().nextInt(2);
-        if (index == 1) {
-            mImageView.setImageResource(R.drawable.entrance3);
-        } else {
-            mImageView.setImageResource(R.drawable.entrance2);
-        }
+//        int index = new Random().nextInt(2);
+//        if (index == 1) {
+//            mImageView.setImageResource(R.drawable.entrance3);
+//        } else {
+//            mImageView.setImageResource(R.drawable.bg);
+//        }
         startService(new Intent(this, CoreService.class));
         startService(new Intent(this, CleanerService.class));
 

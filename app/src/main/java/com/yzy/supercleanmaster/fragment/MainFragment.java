@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.umeng.update.UmengUpdateAgent;
 import com.yzy.supercleanmaster.R;
 import com.yzy.supercleanmaster.base.BaseFragment;
 import com.yzy.supercleanmaster.model.SDCardInfo;
@@ -67,7 +66,7 @@ public class MainFragment extends BaseFragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onActivityCreated(savedInstanceState);
-        UmengUpdateAgent.update(getActivity());
+//        UmengUpdateAgent.update(getActivity());
     }
 
     private void fillData() {

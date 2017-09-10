@@ -111,33 +111,33 @@
           友盟
           -->
 
-        <meta-data android:value="54d9a36afd98c56d450008ab" android:name="UMENG_APPKEY"></meta-data>
-        <meta-data android:value="Channel ID" android:name="UMENG_CHANNEL"/>
-
-        <service
-            android:name="com.umeng.update.net.DownloadingService"
-            android:process=":DownloadingService" >
-        </service>
-        <activity
-            android:name="com.umeng.update.UpdateDialogActivity"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-        </activity>
-
+        <meta-data android:value="59b3e82aae1bf8145c0017f6" android:name="UMENG_APPKEY"></meta-data>
+        <meta-data android:value="GDT" android:name="UMENG_CHANNEL"/>
         <!--
-                 友盟分享
-                 -->
-        <activity
-            android:name="com.umeng.socialize.view.ShareActivity"
-            android:configChanges="orientation|keyboard"
-            android:launchMode="singleTask"
-            android:noHistory="true"
-            android:theme="@style/Theme.UMDialog"
-            android:windowSoftInputMode="stateVisible|adjustResize" >
-        </activity>
+                <service
+                    android:name="com.umeng.update.net.DownloadingService"
+                    android:process=":DownloadingService" >
+                </service>
+                <activity
+                    android:name="com.umeng.update.UpdateDialogActivity"
+                    android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+                </activity>
 
 
+                         友盟分享
 
-        <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############ -->
+                <activity
+                    android:name="com.umeng.socialize.view.ShareActivity"
+                    android:configChanges="orientation|keyboard"
+                    android:launchMode="singleTask"
+                    android:noHistory="true"
+                    android:theme="@style/Theme.UMDialog"
+                    android:windowSoftInputMode="stateVisible|adjustResize" >
+                </activity>
+
+         -->
+
+        <!-- ############ QQ空间和QQ SSO授权的Activity注册 ############
 
         <activity
             android:name="com.tencent.tauth.AuthActivity"
@@ -148,7 +148,7 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <!-- 100424468，如果你使用的公用账号，则不需要修改；否则修改成你在QQ开放平台申请的 APP ID-->
+                100424468，如果你使用的公用账号，则不需要修改；否则修改成你在QQ开放平台申请的 APP ID
                 <data android:scheme="tencent100424468" />
             </intent-filter>
         </activity>
@@ -156,7 +156,7 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
             android:screenOrientation="portrait">
         </activity>
-
+    -->
     </application>
 
 </manifest>

@@ -11,8 +11,6 @@ public interface Formatter {
      * Format the value in anyway you want
      * Remember to prepend the prefix and append the suffix
      *
-     * @param prefix prefix set in {@link com.github.premnirmal.textcounter.CounterView}
-     * @param suffix suffix set in {@link com.github.premnirmal.textcounter.CounterView}
      * @param value the number value at the current time interval
      * @return formatted String
      */

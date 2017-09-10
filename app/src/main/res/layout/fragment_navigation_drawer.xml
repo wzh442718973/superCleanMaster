@@ -12,6 +12,7 @@
         android:orientation="vertical">
 
         <RelativeLayout
+            android:visibility="gone"
             android:id="@+id/userInfo"
             android:layout_width="match_parent"
             android:layout_height="100dp">
@@ -62,6 +63,7 @@
                 android:paddingLeft="17dp"
                 android:paddingRight="0dp"
                 android:text="轻松一下"
+                android:visibility="gone"
                 android:textColor="@drawable/drawer_selector_font"
                 android:textSize="17sp" />
 
